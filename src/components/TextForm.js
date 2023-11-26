@@ -52,11 +52,6 @@ const copyToClipboard=() =>{
 <button disabled={text.length===0} className={`btn btn-primary mx-2 my-2`}  onClick={LowerCase}>convert to Lower case </button>
 <button disabled={text.length===0} className={`btn btn-primary mx-2 my-2`}  onClick={ClearCase}>Clear case            </button>
 <button disabled={text.length===0} className={`btn btn-primary mx-2 my-2`}  onClick={copyToClipboard}>Copy Text       </button>
-
-{/* <button disabled={text.length===0} className={`btn btn-primary mx-2 my-2`}  onClick={copyToClipboard(text)}>Copy text            </button> */}
-
-
-
     </div>
     <div className=" container mb-3">
         <h1 className={`text-${props.mode==='light'?'dark':'light'} line `}>Text Calculator</h1>
